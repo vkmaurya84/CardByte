@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T13:50:39 IST" name="Suite" finished-at="2022-03-11T13:50:39 IST" duration-ms="0">
+    <groups>
+      <group name="Contact">
+        <method signature="ContactTC.cardRemove()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="cardRemove" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactBlock()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactBlock" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactFavourite()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactFavourite" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactMail()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactMail" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactMap()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactMap" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactMenuClose()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactMenuClose" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactTags()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactTags" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactUnblock()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactUnblock" class="testCases.ContactTC"/>
+        <method signature="ContactTC.contactUnfavourite()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="contactUnfavourite" class="testCases.ContactTC"/>
+        <method signature="ContactTC.shareCards()[pri:0, instance:testCases.ContactTC@cd3fee8]" name="shareCards" class="testCases.ContactTC"/>
+      </group> <!-- Contact -->
+    </groups>
+  </suite> <!-- Suite -->
+</testng-results>

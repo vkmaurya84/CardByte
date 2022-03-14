@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="10">
+<listeners>
+	<listener class-name="common.Listeners"></listener>
+</listeners>
+  <test thread-count="10"  name="Test">
+    <classes>
+    
+      <class name="testCases.ProfessionTC"/>
+      <class name="testCases.SearchTC"/>
+      <class name="testCases.MyCardsTC"/>
+      <class name="testCases.FavouriteTC"/>
+      <class name="testCases.TagsTC"/>
+      <class name="testCases.CompanyTC"/>
+      <class name="testCases.LoginTC"/>
+      <class name="testCases.ContactTC"/>
+      <class name="testCases.SettingsTC"/>
+      <class name="testCases.IndustryTC"/>
+      <class name="testCases.NotificationTC">
+      	<methods>
+      		<exclude name="notification"></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
